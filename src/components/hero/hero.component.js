@@ -17,7 +17,7 @@ class Hero extends React.Component {
         <Clipper>
           <ScrollSVG className={scroll_css} />
           <video autoPlay={true} loop={true} muted={true}>
-            <source src="/Waterfall-11161.mp4" />
+            <source src="/waterfall.mp4" />
           </video>
         </Clipper>
       </StyledCase>

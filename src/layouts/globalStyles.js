@@ -4,8 +4,8 @@ injectGlobal`
 /* @import url('https://unpkg.com/leaflet@1.3.4/dist/leaflet.css'); */
   @import url('https://fonts.googleapis.com/css?family=Merriweather|Roboto');
   html, body, #root {
-    /* width: 100%;
-    height: 100%; */
+    width: 100%;
+    height: 100%;
     padding: 0;
     margin: 0; 
     font-family: 'Roboto', sans-serif;
