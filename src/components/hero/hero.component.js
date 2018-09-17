@@ -17,7 +17,7 @@ class Hero extends React.Component {
         <Clipper>
           <ScrollSVG className={scroll_css} />
           <video autoPlay={true} loop={true} muted={true} poster={'/waterfall.jpg'}>
-            <source src="/waterfall-web-ff.mp4" />
+            <source src="/waterfall-web.m4v" type="video/mp4" />
           </video>
         </Clipper>
       </StyledCase>
@@ -52,6 +52,7 @@ const StyledCase = styled('div')`
   overflow: hidden;
   position: relative;
   z-index: 10;
+  background-color: #fff;
   img, video{
     width: 100%;
     height: 100%;
