@@ -38,6 +38,8 @@ const Clipper = styled('div')`
   width: 100%;
   height: 100%;
   clip: rect(0,auto,auto,0);
+  background-image: url('/waterfall.jpg');
+  background-size: cover;
 `;
 
 const StyledCase = styled('div')`
